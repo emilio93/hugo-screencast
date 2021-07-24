@@ -1,0 +1,7 @@
+baseURL = "http://hugo-screencast.s3-website.us-east-2.amazonaws.com/"
+languageCode = "en-us"
+title = "Hugo AWS CD"
+theme = "ananke"
+[[deployment.targets]]
+name = "awsbucket"
+URL = "s3://hugo-screencast/?region=us-east-2"
